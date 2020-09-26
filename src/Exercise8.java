@@ -12,14 +12,14 @@ public class Exercise8 {
 
         double totalPassengers = students + teachers;
         double overflow = totalPassengers % capacity;
-        double busesRequired = (totalPassengers / capacity) + (1 - ((totalPassengers / capacity) % 1));
+        double busesRequired = (totalPassengers / capacity) + 0.49;
+        double busesRequiredOutPut = busesRequired + 0.49;
 
         System.out.println("");
         System.out.print("Buses required      : ");
         System.out.printf("%.0f", busesRequired);
         System.out.print("\nOverflow passengers : ");
         System.out.printf("%.0f", overflow);
-
 
 
     }

@@ -24,7 +24,7 @@ public class Exercise5 {
 
         System.out.println("");
         System.out.printf("%.2f", finalGrade);
-        System.out.print("%");
+        System.out.print("%.");
 
     }
 }
