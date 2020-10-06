@@ -10,6 +10,8 @@ public class Exercise8 {
         System.out.print("Capacity : ");
         double capacity = input.nextDouble();
 
+        input.close();
+
         double totalPassengers = students + teachers;
         double overflow = totalPassengers % capacity;
         double busesRequired = (totalPassengers / capacity) + 0.49;

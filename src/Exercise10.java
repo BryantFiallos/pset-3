@@ -7,6 +7,8 @@ public class Exercise10 {
         System.out.print("Fahrenheit : ");
         double degreesF = input.nextDouble();
 
+        input.close();
+
         double degreesC = (degreesF - 32) * 5/9;
         double degreesK = degreesC + 273.15;
 

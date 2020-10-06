@@ -21,6 +21,8 @@ public class Exercise6 {
         System.out.print("Sunday    : ");
         double sundayHours = input.nextDouble();
 
+        input.close();
+
         double totalHours = mondayHours + tuesdayHours + wednesdayHours + thursdayHours + fridayHours + saturdayHours + sundayHours;
         double totalPay = totalHours * wage;
 

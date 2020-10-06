@@ -11,6 +11,8 @@ public class Exercise9 {
 
         int amount = (int)userInput;
 
+        input.close();
+
         int quarters = amount / 25;
         quarters = quarters - (quarters % 1);
         amount = amount - (quarters * 25);

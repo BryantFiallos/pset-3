@@ -10,6 +10,8 @@ public class Exercise4 {
         System.out.print("Width : ");
         double width = input.nextDouble();
 
+        input.close();
+
         double perimeterInches = (2 * height) + (2 * width);
         double perimeterCM = perimeterInches * 2.54;
 

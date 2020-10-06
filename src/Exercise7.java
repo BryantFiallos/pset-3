@@ -13,6 +13,8 @@ public class Exercise7 {
         System.out.print("State   : ");
         double state = input.nextDouble();
 
+        input.close();
+
         double salaryAfter401k = salary - (salary * (contribution401k / 100));
         double salaryAfterTaxes = salaryAfter401k - (salaryAfter401k * ((federal + state) / 100));
         double paycheck = salaryAfterTaxes / 24;

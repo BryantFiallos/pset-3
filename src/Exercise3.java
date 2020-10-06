@@ -10,6 +10,8 @@ public class Exercise3 {
         System.out.print("Width : ");
         double width = input.nextDouble();
 
+        input.close();
+
         double area = (height * width);
 
         double areaMM = area * 645.16;

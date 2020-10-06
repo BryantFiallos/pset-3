@@ -17,6 +17,8 @@ public class Exercise5 {
         System.out.print("Test 1     : ");
         double test1 = input.nextDouble();
 
+        input.close();
+
         double hwAverage = (hw1 + hw2 + hw3) / 3;
         double quizAverage = (quiz1 + quiz2) / 2;
 
